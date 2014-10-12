@@ -25,6 +25,6 @@ for (i in 1:2880) {
 data$DateTime <- strptime(dateTimeStrings, format="%d/%m/%Y %H:%M:%S")
 
 # Plot graph
-png('plot2.png', height = 450, width = 450)
+png('plot2.png', height = 480, width = 480)
 plot(x = data$DateTime, y = data$Global_active_power, type = 'l', xlab = '', ylab = 'Global Active Power (kilowatts)')
 dev.off()

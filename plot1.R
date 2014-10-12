@@ -18,7 +18,7 @@ data <- read.table(file='household_power_consumption.txt'
                    )
 
 # Plot graph 
-png('plot1.png', height = 450, width = 450)
+png('plot1.png', height = 480, width = 480)
 hist(data$Global_active_power, xlab = 'Global Active Power (kilowatts)', col='red')
 dev.off()
 

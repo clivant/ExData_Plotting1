@@ -25,7 +25,7 @@ for (i in 1:2880) {
 data$DateTime <- strptime(dateTimeStrings, format="%d/%m/%Y %H:%M:%S")
 
 #Plot graph
-png(file = 'plot3.png', height = 450, width = 450)
+png(file = 'plot3.png', height = 480, width = 480)
 
 # Start the initial plot and plot sub metering 1 against date time
 plot(x = data$DateTime, y = data$Sub_metering_1, xlab = '', ylab = 'Energy sub metering', type = 'l')
